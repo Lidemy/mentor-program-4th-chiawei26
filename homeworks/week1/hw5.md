@@ -17,7 +17,14 @@
 
 
 
-* sudo： super user do，使用電腦的最高權限來執行因此執行時需要輸入密碼。
+
+
+
+
+## 請列舉出 3 個「課程沒有提到」的 command line 指令並且說明功用
+
+
+* sudo： super user do，使用電腦的最高權限來執行因此執行時需要輸入密碼
 
 * whoami：Who am i，檢視目前有效的用戶名稱
 
