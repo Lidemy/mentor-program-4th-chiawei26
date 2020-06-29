@@ -4,7 +4,7 @@ function printFactor(n) {
           console.log(i);
       }
   }
-}
+} 
 
 
 printFactor(10);

@@ -7,7 +7,7 @@ function isValid(arr) {
     if (arr[i] !== arr[i-1] + arr[i-2]) return 'invalid'
   }
   return 'valid'
-}
+} 
 
 isValid([3, 5, 8, 13, 22, 35])
 ```

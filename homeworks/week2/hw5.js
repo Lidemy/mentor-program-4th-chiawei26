@@ -2,7 +2,7 @@ function join(arr, concatStr) {
     let result = ''
     for( i = 0 ; i < arr.length - 1 ; i++ ){
         result += arr[i] + concatStr
-  
+   
     }
    return result + arr[arr.length - 1] 
   }
