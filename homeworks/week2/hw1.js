@@ -3,4 +3,4 @@ function printStars(n) {
        console.log("*") 
 }
 
-printStars(5);
+printStars(5); 

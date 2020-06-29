@@ -14,6 +14,6 @@ function join(arr, concatStr) {
       }
     return ans
   }
-  
+   
   console.log(join(['a'], '!'));
   console.log(repeat('a', 5));
