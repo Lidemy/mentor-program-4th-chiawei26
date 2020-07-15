@@ -13,10 +13,12 @@ rl.on('close', () => {
   /* eslint-disable-next-line */
   solve(lines);
 });
-function solve(input) {
-  let result = '';
-  for (let i = 1; i <= input[0]; i += 1) {
-    result += '*';
-    console.log(result);
+function solve(n) {
+  let temp = '';
+  if (n >= 1 && n <= 30) {
+    for (let i = 1; i <= n[0]; i += 1) {
+      temp += '*';
+      console.log(temp);
+    }
   }
 }
