@@ -36,8 +36,8 @@ function isNarcissistic(n) {
   return false;
 }
 
-function solve(input) {
-  const temp = input[0].split(' ');
+function solve(a) {
+  const temp = a[0].split(' ');
   const n = Number(temp[0]);
   const m = Number(temp[1]);
   for (let i = n; i <= m; i += 1) {
