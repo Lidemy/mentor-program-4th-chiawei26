@@ -9,6 +9,10 @@ rl.on('line', (line) => {
   lines.push(line);
 });
 
+rl.on('close', () => {
+  /* eslint-disable-next-line */
+  solve(lines);
+});
 function solve(input) {
   let result = '';
   for (let i = 1; i <= input[0]; i += 1) {
@@ -16,7 +20,3 @@ function solve(input) {
     console.log(result);
   }
 }
-
-rl.on('close', () => {
-  solve(lines);
-});
