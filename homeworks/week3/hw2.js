@@ -1,3 +1,4 @@
+// 這題是參考多位同學的答案後寫出來的
 const readline = require('readline');
 
 const rl = readline.createInterface({
